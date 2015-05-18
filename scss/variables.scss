@@ -1,0 +1,111 @@
+@import 'components-font-awesome/scss/variables';
+@import 'bootstrap-sass-only/scss/bootstrap/variables';
+
+// Bootstrap Overrides
+$brand-primary: #007aff !default;
+$brand-success: #4cd964 !default;
+$brand-warning: #fc0 !default;
+$brand-danger: #ff3b30 !default;
+$brand-info: #34aadc !default;
+
+$headings-font-family:    $font-family-base !default;
+$headings-font-weight:    normal !default;
+$btn-font-weight:         normal !default;
+$alert-link-font-weight:  normal !default;
+$badge-font-weight:       normal !default;
+$close-font-weight:       normal !default;
+
+$navbar-default-color:                     $brand-primary !default;
+$navbar-default-bg:                        #f7f7f7 !default;
+$navbar-default-link-color:                $brand-primary !default;
+$navbar-default-link-hover-color:          darken($brand-primary, 5%) !default;
+$navbar-default-link-active-color:         lighten($brand-primary, 5%) !default;
+$navbar-default-link-disabled-color:       lighten($brand-primary, 20%) !default;
+$navbar-default-toggle-icon-bar-bg:        #ccc !default;
+$navbar-default-border: #ccc !default;
+$navbar-border-radius: 0 !default;
+
+$border-radius-base:        4px !default;
+$border-radius-large:       6px !default;
+$border-radius-small:       3px !default;
+
+// Globals
+$font-weight: 200 !default;
+$active-link-opacity: .6 !default;
+$page-header-margin-top: 10px !default;
+
+// App
+$app-bg: $gray-light !default;
+$zindex-app: 2 !default;
+$zindex-app-search: 1029 !default;
+$app-shadow: 0 0 4px rgba(0,0,0,0.4) !default;
+
+// Forms
+$form-actions-margin-top: -20px !default;
+$app-search-border-radius: 0 !default;
+
+// Switch
+$switch-handle-diameter: $input-height-base !default;
+$switch-width: $switch-handle-diameter * 2 !default;
+$switch-height: $switch-handle-diameter !default;
+$switch-active-color: $brand-primary !default;
+$zindex-switch-handle: 2 !default;
+$switch-border-radius: 999px !default;
+$switch-handle-border-radius: $switch-border-radius !default;
+
+// Navbars
+$btn-icon-only-font-size: 22px !default;
+$navbar-app-height: 50px !default;
+
+// Overlays
+$overlay-margin: -5px -5px -5px -5px !default;
+$overlay-background: rgba(255, 255, 255, .95) !default;
+$overlay-content-padding: 20px !default;
+$overlay-dismiss-font-size: 24px !default;
+$overlay-dismiss-margin: $overlay-content-padding / 2 !default;
+$overlay-dismiss-margin-top: $overlay-dismiss-margin !default;
+$overlay-dismiss-margin-right: $overlay-dismiss-margin !default;
+$overlay-content-color: #000 !default;
+$overlay-blur: 5px !default;
+
+// Panels
+
+$panel-padding: 10px 15px !default;
+$panel-title-font-size: 20px !default;
+$panel-title-font-weight: 200 !default;
+$panel-group-panel-heading-padding: 0 15px !default;
+$panel-title-line-height: $line-height-computed * 2 !default;
+$panel-default-panel-heading-padding: 0 0 10px 0 !default;
+$panel-default-panel-body-padding: 15px !default;
+
+// Sidebars
+$sidebar-width: 300px !default;
+$sidebar-width-xs: $screen-xs-min - 40 !default;
+$sidebar-width-sm: $screen-sm-min - 80 !default;
+$sidebar-width-md: 300px !default;
+$sidebar-width-lg: 320px !default;
+$sidebar-left-width: $sidebar-width !default;
+$sidebar-right-width: $sidebar-width !default;
+
+$sidebar-left-width-xs: $sidebar-width-xs !default;
+$sidebar-right-width-xs: $sidebar-width-xs !default;
+
+$sidebar-left-width-sm: $sidebar-width-sm !default;
+$sidebar-right-width-sm: $sidebar-width-sm !default;
+
+$sidebar-left-width-md: $sidebar-width-md !default;
+$sidebar-right-width-md: $sidebar-width-md !default;
+
+$sidebar-left-width-lg: $sidebar-width-lg !default;
+$sidebar-right-width-lg: $sidebar-width-lg !default;
+
+
+
+$sidebar-header-height: 70px !default;
+$sidebar-header-font-size: 23px !default;
+$zindex-sidebar-header: 10 !default;
+$sidebar-header-padding: 0 10px !default;
+$sidebar-header-color: #fff !default;
+$sidebar-background: $gray !default;
+$sidebar-left-background: $sidebar-background !default;
+$sidebar-right-background: $sidebar-background !default;
